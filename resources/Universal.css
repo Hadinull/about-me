@@ -1,0 +1,26 @@
+/* Universal CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul, ol, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: sans-serif; 
+  line-height: 1.5; 
+  font-size: 16px; 
+  min-height: 100vh;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}

@@ -1,0 +1,131 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(53, 50, 50);
+}
+
+header h1 {
+    
+}
+
+ .header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  max-width: 1000px; 
+  margin-left: 300px;
+  padding: 2px 0; 
+  font-size: 0.9rem;
+  color: rgb(53, 50, 50);
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: rgb(53, 50, 50);
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    margin-left: 500px;
+    margin-top: auto;
+}
+
+
+main {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  max-width: 1050px; 
+  margin-left: 300px;
+  padding: 5px 0; 
+  font-size: 0.9rem;
+  color: rgb(53, 50, 50);
+  
+}
+.divabout {
+    font-size: large;
+    max-width: 650px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px; 
+    max-width: 400px;
+    flex-shrink: 0; 
+}
+
+
+
+#aboutme{
+    margin-bottom: 20px;
+    color:rgb(58, 57, 57) ;
+}
+
+.projects_section {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  max-width: 1050px; 
+  margin-left: 300px;
+  padding: 5px 0; 
+  font-size: 0.9rem;
+  color: rgb(53, 50, 50);
+  margin-top: 0px;
+}
+
+#click {
+    font-size: 1.4rem;
+    color: rgb(37, 37, 37);
+    list-style: none;
+}
+#travel a:hover {
+    color: purple;
+}
+#button :hover {
+    color: purple;
+}
+
+.html2 {
+    text-decoration: none;
+    color: inherit;
+}
+
+header h1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.footcon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1050px; 
+    margin-left: 300px;
+    padding: 5px 0;
+    font-size: 0.9rem;
+    color: rgb(53, 50, 50);
+}
+
+.footcon h1 {
+    font-size: 1.6rem;
+}
+
+.footcon h2 {
+    font-size: medium;
+    color: rgb(101, 93, 93);
+    font-size: 1.2rem;
+}
+.footcon p{
+    font-size: 1.2rem;
+}
